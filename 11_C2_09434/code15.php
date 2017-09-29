@@ -12,5 +12,23 @@ abstract class smartphone{
 }
 class tablet extends smartphone{
    // .. isi class tablet
+	public static function hidupkan_komputer() {
+		return parent::hidupkan_komputer();
+	}
+	public function lihat_spec(){
+		
+	}
+	public function lihat_processor(){
+		
+	}
+	public function lihat_harddisk(){
+		
+	}
+	public function lihat_pemilik(){
+		
+	}
 } 
+
+$tablet_baru = new tablet();
+$tablet_baru->hidupkan_komputer();
 ?>
