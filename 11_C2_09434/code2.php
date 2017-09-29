@@ -1,6 +1,6 @@
 <?php 
 class smartphone {
-   public $merk = "Samsung";
+   private $merk = "Samsung";
    public function lihat_spec() {
      return "Spec smartphone: Samsung, Processor Snapdragon, Ram 1GB";
    }
