@@ -14,6 +14,7 @@ class smartphone_dualsim extends smartphone {
    }  
    public function __destruct() {
      echo "Destructor dari class smartphone_dualsim <br />";
+		echo parent::__destruct();
    }
 } 
 class smartphone_singlesim extends smartphone_dualsim {
@@ -23,6 +24,7 @@ class smartphone_singlesim extends smartphone_dualsim {
    }  
    public function __destruct() {
      echo "Destructor dari class smartphone_singlesim <br />";
+		echo parent::__destruct();
    }
 } 
 $gadget_baru = new smartphone_singlesim();
