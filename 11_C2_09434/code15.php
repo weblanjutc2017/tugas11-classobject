@@ -10,3 +10,7 @@ abstract class smartphone{
    abstract public function lihat_harddisk();
    abstract public function lihat_pemilik();
 }
+class tablet extends smartphone{
+   // .. isi class tablet
+} 
+?>
