@@ -1,0 +1,9 @@
+Persamaan Interface class dan Abstrak class :
+-Hanya berisi signature dari method, yakni hanya nama method dan parameternya saja (jika ada).
+-Bisa diturunkan(inheritance).
+
+Perbedaan Interface class dan Abstrak class :
+-Didalam interface kita tidak bisa membuat method normal, sedangkan dalam abstrak kita bisa membuat method normal.
+-Sebuah class bisa menggunakan lebih dari 1 interface, sedangkan untuk abstrak hanya bisa menggunakan 1 abstrak class dalam sekali penurunan class.
+-Interface berfungsi untuk menyeragamkan method, sedangkan abstrak berfungsi untuk membuat ‘kerangka’ bagi seluruh class dibawahnya.
+-Interface tidak bisa memiliki static method, sedangkan abstrak bisa memiliki static method.
