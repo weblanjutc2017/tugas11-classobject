@@ -1,0 +1,13 @@
+PERBEDAAN ABSTRACT DAN INTERFACE CLASS
+
+Abstrak Class :
+Method boleh bersifat statis.
+Bisa mendeklarasikan constant dan instance variabel.
+Hanya bisa meng-extend satu abstract class.
+Method boleh bersifat final.
+
+Interface Class :
+Method tidak boleh bersifat statis.
+Hanya bisa mengextend interface lainnya.
+Bisa mendeklarasikan constant.
+Method tidak boleh bersifat final.
