@@ -1,0 +1,10 @@
+Interface Class				Abstrak Class
+-----------------Persamaan----------------
+-merupakan kerangka dasar
+-method-nya harus diimplementasikan atau dikembangkan pada class anak
+-----------------Perbedaan----------------
+-dituliskan interface		-dituliskan abstract pada
+ pada awal class saja		 awal class
+-lebih diperuntukan 		-lebih digunakan untuk 
+ pada class					 menyeragamkan atau mengumpulkan
+							 method
