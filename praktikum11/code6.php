@@ -1,7 +1,7 @@
 <?php
 //buat class smartphone
 class smartphone{
-	//property dengan hak akses protected
+	//property dengan hak akses private
 	private $pembuat = "China";
 	public function tampilkan_pembuat(){
 		return $this->pembuat;

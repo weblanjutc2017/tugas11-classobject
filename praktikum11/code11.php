@@ -1,15 +1,15 @@
 <?php
 // buat class induk
 class smartphone {
-   protected function beli_smartphone() {
-     return "Beli smartphone baru";
-   }
+	protected function beli_smartphone() {
+		return "Beli smartphone baru";
+	}
 }
 // turunkan class smartphone
 class tablet extends smartphone {
-   protected function beli_tablet() {
-     return "Beli tablet baru";
-   }
+	protected function beli_tablet() {
+		return "Beli tablet baru";
+	}
 }
 // turunkan class tablet
 class smartphone_dualsim extends tablet {
@@ -27,5 +27,4 @@ class smartphone_dualsim extends tablet {
 $gadget_baru = new smartphone_dualsim(); 
 //panggil method objek
 echo $gadget_baru->beli_semua();
-echo $gadget_baru->beli_smartphone();
-?>
+echo $gadget_baru->beli_smartphone(); //syntax ini akan mengalami error dikarenakan fungsi yang dipanggil adalah protected. Sehingga, hanya bisa dipanggil oleh anaknya dari class smartphone
